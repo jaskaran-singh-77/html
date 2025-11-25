@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        div{
+            /* border-width: 1px;
+            border-color: black;
+            border-style: solid; */
+        }
+        .div_detail{
+            display: grid;
+            grid-template-rows: 20px 20px 1fr ;
+            height: 60px;
+            row-gap: 3px;
+            margin-left: 2px;
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: 200px 200px 200px;
+            /* background-color: blanchedalmond; */
+            column-gap: 5px;
+        }
+        .div_thungnail{
+            border-width: 1px;
+            border-color: black;
+            border-style: solid;
+        }
+        .img{
+
+            width: 100%;
+            height: inherit;
+            object-fit: cover;
+            margin-bottom: 12px;
+        }
+        .img_div{
+            width: 200px;
+            height: 150px;
+            
+        }
+        .logo{
+            width: 20px;
+            height: 20px;
+            border-radius: 100%;
+
+        }
+        .logo_det{
+            display: inline-block;
+            font-size: 10px;
+            margin-left: 3px;
+            color: rgb(130, 130, 130);
+        }
+        .head{
+            /* padding-left: 5px; */
+            font-weight: 500;
+        }
+        .button{
+            padding: 2px;
+        }
+        .sub_heading{
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+    <div class="div_thungnail">
+        <div class="img_div"> 
+            <img class="img" src=" https://th.bing.com/th/id/OIP.EbiFw9w9jAGFCwClVTff6wHaKz?w=205&h=298&c=7&r=0&o=7&pid=1.7&rm=3" alt="">
+         </div>
+        <div class="div_detail">
+             <div><p class="head">Mimi</p></div>
+             <div class="sub_heading">
+                 <img class="logo" src="https://th.bing.com/th/id/OIP.OvR_f3j8f2qfhQ1RLUrk8wHaE6?w=269&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="">
+                <p class="logo_det">3 mutual friends</p>
+            
+            </div>
+             <div><button class="button"> Add Friends</button></div>
+
+        </div>
+    </div>
+
+    <div class="div_thungnail">
+        <div >img</div>
+        <div class="div_detail">
+             <div><p>mimi</p></div>
+             <div></div>
+             <div><button></button></div>
+
+        </div>
+    </div>
+
+    <div class="div_thungnail">
+        <div></div>
+        <div class="div_detail">
+             <div><p>mimi</p></div>
+             <div></div>
+             <div><button></button></div>
+
+        </div>
+    </div>
+
+    </div>
+    
+</body>
+</html>
